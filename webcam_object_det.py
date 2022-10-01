@@ -63,10 +63,10 @@ while True:
     
     # for bbox in list(person_bbox):
     #     if bbox[4] > score_thr:
-    #         bottomleft = (bbox[0], bbox[1])
-    #         bottomright = (bbox[2], bbox[1])
-    #         topleft = (bbox[0], bbox[3])
-    #         topright = (bbox[2], bbox[3])
+    #         topleft = (bbox[0], bbox[1])
+    #         topright = (bbox[2], bbox[1])
+    #         bottomleft = (bbox[0], bbox[3])
+    #         bottomright = (bbox[2], bbox[3])
             
     
     for event in pygame.event.get():
