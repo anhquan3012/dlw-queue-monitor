@@ -6,7 +6,7 @@ frame_shape = [640,480]
 score_thr = 0.5
 
 pygame.init()
-pygame.display.set_caption("OpenCV camera stream on Pygame")
+pygame.display.set_caption("Vision-based Queue Monitoring System")
 surface = pygame.display.set_mode(frame_shape)
 #0 Is the built in camera
 cap = cv2.VideoCapture(0)
