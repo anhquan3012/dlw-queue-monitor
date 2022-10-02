@@ -3,7 +3,7 @@ A real-time people counting system for queue management at supermarkets, malls a
 
 ## Setting up
 ### Prerequisites
-Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
+Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#.
 
 If you have problems with building ```pycocotools``` when trying to install ```mmdet```, please install ```pycocotools``` first by running this command.
 ```bash
