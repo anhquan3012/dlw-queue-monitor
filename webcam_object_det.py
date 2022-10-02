@@ -4,8 +4,8 @@ import numpy as np
 
 from queue_monitor import set_up_regions
 
-height=700
-width=1000
+height=480
+width=640
 frame_shape = [width, height]
 score_thr = 0.5
 
