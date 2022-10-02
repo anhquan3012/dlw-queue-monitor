@@ -1,7 +1,7 @@
 # Vision-based Queue Monitoring System
 A real-time people counting system for queue management at supermarkets, malls and public areas.
 
-[![Watch the video](https://youtu.be/gUTV3HvWWVg)
+![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/gUTV3HvWWVg)
 
 ## Setting up
 ### Prerequisites
