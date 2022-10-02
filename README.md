@@ -4,6 +4,13 @@ A real-time people counting system for queue management at supermarkets, malls a
 Watch the demo video here: https://youtu.be/gUTV3HvWWVg.
 
 ## Setting up
+
+### Clone the repo
+```bash
+git clone https://github.com/anhquan3012/dlw-queue-monitor.git
+cd dlw-queue-monitor
+```
+
 ### Prerequisites
 Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
 
@@ -16,12 +23,6 @@ After that you may install ```mmdet``` as per instructed.
 git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 pip install -v -e .
-```
-
-### Clone the repo
-```bash
-git clone https://github.com/anhquan3012/dlw-queue-monitor.git
-cd dlw-queue-monitor
 ```
 
 ### Install other dependencies
