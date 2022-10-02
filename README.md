@@ -11,8 +11,8 @@ git clone https://github.com/anhquan3012/dlw-queue-monitor.git
 cd dlw-queue-monitor
 ```
 
-### Prerequisites
-Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
+### Install mmdetection
+Please install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
 
 If you have problems with building ```pycocotools``` when trying to install ```mmdet```, please install ```pycocotools``` first it by running this command.
 ```bash
