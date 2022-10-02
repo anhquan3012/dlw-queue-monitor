@@ -1,6 +1,8 @@
 # Vision-based Queue Monitoring System
 A real-time people counting system for queue management at supermarkets, malls and public areas.
 
+[![Watch the video](https://youtu.be/gUTV3HvWWVg)
+
 ## Setting up
 ### Prerequisites
 Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
