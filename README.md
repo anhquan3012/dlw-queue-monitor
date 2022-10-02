@@ -3,9 +3,9 @@ A real-time people counting system for queue management at supermarkets, malls a
 
 ## Setting up
 ### Prerequisites
-Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#.
+Please first install mmdetection library (```mmdet```) by following the instructions at https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
 
-If you have problems with building ```pycocotools``` when trying to install ```mmdet```, please install ```pycocotools``` first by running this command.
+If you have problems with building ```pycocotools``` when trying to install ```mmdet```, please install ```pycocotools``` first it by running this command.
 ```bash
 conda install -c conda-forge pycocotools
 ```
@@ -27,10 +27,22 @@ cd dlw-queue-monitor
 pip install -r requirements.txt
 ```
 
+### Install model configs and model weight
+Our model use YOLOv3 with DarkNet53 Backbone with mixed precision training. Download the model configs and weights by running this command.
+```bash
+mim download mmdet --config  yolov3_d53_fp16_mstrain-608_273e_coco --dest .
+```
+
+You may use any model from mmdetection Model Zoo (https://mmdetection.readthedocs.io/en/latest/model_zoo.html#baselines). However, you will need to change the model file path inside the python files ```webcam_queue_monitor.py```, or ```video_queue_monitor.py``` (which ever files you are going to use).
+
 ## Running demo on webcam
 You could run the demo on webcam by running ```webcam_queue_monitor.py```.
 ```bash
 python webcam_queue_monitor.py
 ```
 
-You will a this window like this.
+## Running demo on video
+You could run the demo on a video by running ```video_queue_monitor.py``` (please lower the video frame rates and resolution before running).
+```bash
+python video_queue_monitor.py
+```
