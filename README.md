@@ -36,16 +36,16 @@ Our model use YOLOv3 with DarkNet53 Backbone with mixed precision training. Down
 mim download mmdet --config  yolov3_d53_fp16_mstrain-608_273e_coco --dest .
 ```
 
-You may use any model from mmdetection Model Zoo (https://mmdetection.readthedocs.io/en/latest/model_zoo.html#baselines). However, you will need to change the model file path inside the python files ```webcam_queue_monitor.py```, or ```video_queue_monitor.py``` (which ever files you are going to use).
+You may use any model from mmdetection Model Zoo (https://mmdetection.readthedocs.io/en/latest/model_zoo.html#baselines). However, you will need to change the model file path inside the python files ```webcam_demo.py```, or ```video_demo.py``` (which ever files you are going to use).
 
 ## Running demo on webcam
-You could run the demo on webcam by running ```webcam_queue_monitor.py```.
+You could run the demo on webcam by running ```webcam_demo.py```.
 ```bash
-python webcam_queue_monitor.py
+python webcam_demo.py
 ```
 
 ## Running demo on video
-You could run the demo on a video by running ```video_queue_monitor.py``` (please lower the video frame rates and resolution before running).
+You could run the demo on a video by running ```video_demo.py``` (please lower the video frame rates and resolution before running).
 ```bash
-python video_queue_monitor.py
+python video_demo.py
 ```
