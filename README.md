@@ -48,3 +48,14 @@ You could run the demo on a video by running ```video_demo.py``` (please lower t
 ```bash
 python video_demo.py
 ```
+
+## Credit
+Pham Duc Nam Phuong
+
+Pham Viet Hung
+
+Phan Huu An
+
+Ta Quynh Nga
+
+Tran Anh Quan
