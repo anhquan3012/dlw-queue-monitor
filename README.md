@@ -50,6 +50,8 @@ python video_demo.py
 ```
 
 ## Credit
+Le Ky Nam
+
 Pham Duc Nam Phuong
 
 Pham Viet Hung
